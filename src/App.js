@@ -19,9 +19,20 @@ function App() {
       <p>
         Hi, I am Nathan McDonald
       </p>
-      <div className="container mt4">
-                <Card />
+      <div className="container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <Card name="Google" description="Just takes you to Google." link="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiIqO-GzN6EAxUKMlkFHZxWC2kQPAgJ"/>
+                    </div>
+                    <div className="col-md-4">
+                        <Card name="First Card" description="Description for the first card." link="/page1"/>
+                    </div>
+                    <div className="col-md-4">
+                        <Card name="First Card" description="Description for the first card." link="/page1"/>
+                    </div>
+                </div>
             </div>
+
     </div>
   );
 }
