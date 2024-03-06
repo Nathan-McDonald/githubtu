@@ -25,7 +25,7 @@ function App() {
                         <Card name="Google" description="Just takes you to Google." link="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiIqO-GzN6EAxUKMlkFHZxWC2kQPAgJ"/>
                     </div>
                     <div className="col-md-4">
-                        <Card name="First Card" description="Description for the first card." link="/page1"/>
+                        <Card name="Bootstrap Extras" description="Can be used for the addition of other things." link="https://getbootstrap.com/docs/4.0/components/navbar/"/>
                     </div>
                     <div className="col-md-4">
                         <Card name="First Card" description="Description for the first card." link="/page1"/>
